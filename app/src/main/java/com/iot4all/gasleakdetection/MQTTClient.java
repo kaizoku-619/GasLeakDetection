@@ -13,7 +13,7 @@ import java.util.Date;
 
 public class MQTTClient {
     private static final String TAG = "MQTTClient";
-    private String mqttBroker = "tcp://192.168.1.6:1883";//localhost iot.eclipse.org
+    private String mqttBroker = "tcp://192.168.1.7:1883";//iot.eclipse.org
     private String mqttTopic = "amphie/gasLeakDetection";
     private String deviceId = "androidClient";
     // Variables to store reference to the user interface activity.
